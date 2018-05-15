@@ -1,0 +1,140 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* header */
+header {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+}
+
+nav {
+  position: fixed;
+  right:50px;
+
+}
+nav a {
+  color: seashell;
+  padding: 10px;
+    text-decoration: underline;
+}
+
+/*main content*/
+div.content {
+  position: relative;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+ justify-content: center;
+
+}
+
+/* mission section*/
+div.mission {
+  background-image: url("img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding-bottom: 100px;
+}
+.text-content {
+  background-color: black;
+  margin-top: 300px;
+  width: 1200px;
+  align-items: center;
+  margin-top: 360px;
+}
+
+/* 3rd tea flavore*/
+div.container1 {
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ margin: 65px;
+}
+div.month {
+  width: 1000px;
+  align-self: center;
+}
+
+div.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-content img {
+  height: 200px;
+  display: block;
+}
+
+.rum {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.donuts {
+  margin-right: 30px;
+}
+.ave {
+  margin-right: 30px;
+}
+
+/* forth section locations*/
+div.all {
+  align-self: center;
+  background-image: url("img-locations-background.jpg");
+  height: 550px;
+  width: 1200px;
+}
+div#locations {
+  margin-top: 20px;
+  padding-top: 30px;
+}
+div.container2 {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-left: 85px;
+}
+div.titles {
+  width: 300px;
+  height: 275px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: black;
+  opacity: 1;
+}
+.items {
+  display: flex;
+}
+.item h4 {
+ padding-top: 10px;
+}
+/* last section footer*/
+footer {
+  height: 200px;
+}
+footer h5 {
+  color: seashell;
+}
+footer a {
+  color: skyblue;
+}
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
